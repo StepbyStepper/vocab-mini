@@ -3,6 +3,30 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let Dictionary = {
+    available: "доступный",
+    average: "средний",
+    beyond: "за",
+    borrow: "одолжить",
+    capability: "возможность",
+    charge: "заряжать",
+    cholesterol: "холестерин",
+    comparison: "сравнение",
+    complain: "жаловаться",
+    consumption: "потребление",
+    deny: "отказываться",
+    decision: "решение",
+    deck: "колода",
+    declare: "объявить",
+    decline: "отклонение",
+    decrease: "уменьшить",
+    deputy: "депутат",
+    derive: "получить",
+    describe: "описать",
+    description: "описание"    
+  }
+
   return (
     <div className="App">
       <header className="App-header">
