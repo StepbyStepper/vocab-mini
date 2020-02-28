@@ -1,7 +1,7 @@
 import React from 'react';
 const { Component } = React;
 
-let Dictionary = {
+const Dictionary = {
   available: "доступный",
   average: "средний",
   beyond: "за",
@@ -26,11 +26,11 @@ let Dictionary = {
 
 class App extends Component {
   state = {
-    correct: 'false',
-    answered: 'false',
-    keys: [],
+    correct: false,
+    answered: false,
+    keys: Object.keys(Dictionary),
     index: 0,
-    input: ' '
+    input: ''
   };
 
   render() {
