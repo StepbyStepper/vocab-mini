@@ -36,7 +36,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        vocab-mini
+        <form>
+
+          <label>
+            English Word:
+            <input type="text" name="en_word" />
+          </label>
+          <br />
+          <label>
+            Russian Word  
+            <input type="text" name="ru_word" />
+          </label>
+          <br />    
+          <button>CHECK</button>
+          <button>NEXT</button>
+        </form>
       </div>
     );
   }
